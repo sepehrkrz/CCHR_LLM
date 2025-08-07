@@ -67,15 +67,5 @@
  - Make sure the model server is running before executing the script.
  - Adjust `CONCURRENT_REQUESTS` in `test.py` based on your hardware capability.
 
- ---
 
- ## License
-
- Add your license here.
-
- ---
-
- ## Contact
-
- Add your contact info here.
 
