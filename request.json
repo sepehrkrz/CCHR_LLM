@@ -1,0 +1,23 @@
+{
+  "model": "/icebox/data/shares/mh2/shassan6/llama/llama4_scout_fixed/models--meta-llama--Llama-4-Scout-17B-16E/snapshots/14d516bdff6ac06cec40678529222f193386189c",
+  "max_tokens": 1000,
+  "temperature": 0.0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a hydrology domain expert. Hydrology studies water in the environment, including rainfall, rivers, lakes, groundwater, floods, droughts, and water resource management. Classify articles as 'Relevant' only if they primarily focus on hydrology. Articles mainly focusing on forest fires, wildfire management, social media, or general disaster response, even if natural disasters, are NOT hydrology and must be classified as 'Irrelevant'. If the article does not explicitly focus on water or hydrological processes, reply only with 'Irrelevant'. Respond with exactly one word: 'Relevant' or 'Irrelevant', and a detailed explanations."
+    },
+    {
+      "role": "user",
+      "content": "CLASSIFY THE FOLLOWING TEXT: Title: 8R Resilience Model: A stakeholder-centered approach of disaster resilience for transportation infrastructure and network,\n\nAbstract: Infrastructure and network resilience directly or indirectly deal with the impact of risks, criticalities, emergencies, and stakeholders. It is evaluated based on the retrieval of system functionality during global setbacks such as natural disasters, man-made disasters, etc. Despite inherent complexities and posed threats, proper scientific methods to evaluate the transportation infrastructure and network resilience from the usersâ€™ point of view is absent. This study developed a unique â€˜8R Resilience Modelâ€™, which is an information management tool based on resilient concepts for assessing transportation infrastructure and network resilience. The findings of this study present opportunities to influence policymakers to reassess the disaster resilience of the transportation system during a global crisis. The proposed 8R Resilience Model provides a dynamic stakeholder-centered assessment strategy of disaster resilience. A multi-criteria decision analysis (MCDA) process comprising of the 8R Resilience Model, statistical (survey) model, and social media reaction (Twitter) model has been performed for validation. MCDA result suggests that adopting the dynamic 8R Resilience Model combined with operational resilience metrics is more beneficial in terms of assessing the criticality of any transportation infrastructure than using models developed from survey data and social media reactions."
+    },
+    {
+      "role": "assistant",
+      "content": "Irrelevant"
+    },
+    {
+      "role": "user",
+      "content": "CLASSIFY THE FOLLOWING TEXT: Title: Social-Media Analysis for Disaster Prevention: Forest Fire in Artenara and Valleseco, Canary Islands,\n\nAbstract: ABSTRACT This manuscript investigates the use of social media, specifically Twitter, during the forest fires in Artenara and Valleseco, Canary Islands, Spain, during summer 2019. The used methodology was big-data analysis through the Union Metrics and Twlets tools, as well as content analysis of posts related to the fires written by seven relevant accounts on the days when the fires were active, which was between 17 August and 26 September, when 9636.40 hectares were burned. The accounts selected for analysis were the following: Ángel Víctor Torres, autonomous president; Canary Islands Government; Civil Protection of Las Palmas; Military Emergency Unit of the Spanish Army; Delegation of the Spanish Government in the Canary Islands; Citizen’s Service of the Canary Islands Government; and the information account of the Security and Emergency area of the Canary Islands Government. The study concludes that the Canary Islands authorities did not use social media as a preventive element, but almost exclusively as a live-information channel. Future recommendations are presented for the management of social media during natural disasters."
+    }
+  ]
+}
