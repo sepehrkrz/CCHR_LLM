@@ -65,7 +65,7 @@
 
  - The model uses a custom prompt defining classification rules.
  - Make sure the model server is running before executing the script.
- - Adjust `CONCURRENT_REQUESTS` in `classify.py` based on your hardware capability.
+ - Adjust `CONCURRENT_REQUESTS` in `test.py` based on your hardware capability.
 
  ---
 
