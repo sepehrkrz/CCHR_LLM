@@ -46,7 +46,7 @@
 
  ## Classification Script
 
- The `classify.py` script asynchronously sends papers to the LLAMA 4 Scout API for classification.
+ The `test.py` script asynchronously sends papers to the LLAMA 4 Scout API for classification.
 
  - Reads papers from a CSV file (default path: `/icebox/data/shares/mh2/shassan6/llama/data/papers_class.csv`)
  - Sends classification requests concurrently (default max 20 simultaneous requests)
@@ -56,7 +56,7 @@
  ### Usage
 
  ```bash
- python classify.py
+ python test.py
  ```
 
  ---
