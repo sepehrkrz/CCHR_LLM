@@ -19,7 +19,7 @@
  1. Activate the virtual environment:
 
     ```bash
-    source /icebox/data/shares/mh1/llm_cchr/llm4_venv/bin/activate
+    conda activate /icebox/data/shares/mh1/llm_cchr/llama4_env
     ```
 
  2. Start the model server with vLLM:
