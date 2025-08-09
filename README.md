@@ -25,7 +25,7 @@
  2. Start the model server with vLLM:
 
     ```bash
-    vllm serve /icebox/data/shares/mh2/shassan6/llama/llama4_scout_fixed/models--meta-llama--Llama-4-Scout-17B-16E/snapshots/14d516bdff6ac06cec40678529222f193386189c \
+    vllm serve /icebox/data/shares/mh2/shassan6/llama/Llama-4-Scout-17B-16E/models--meta-llama--Llama-4-Scout-17B-16E/snapshots/14d516bdff6ac06cec40678529222f193386189c \
       --tensor-parallel-size 4 \
       --dtype bfloat16 \
       --max-model-len 32768 \
